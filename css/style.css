@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+
+/* index/home page */
+
+.home-content{
+    
+    font-family: 'Oswald', sans-serif;
+
+}
+.home-content h1{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.profile-img{
+    padding: 50px;
+}
+
+
+@media only screen and (min-width: 414px){
+    .home-content{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    .home-content h1{
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .profile-img{
+        width: 350;
+    }
+    
+
+   
+    
+}
+
+
+
+
+
+/* about page */
+@media only screen and (max-width: 768px) {
+    .about-me-title{
+        
+        
+        padding-top: 10px;
+    }
+
+.lh-base, .lh-lg{
+        text-align: justify;
+    }
+}
+
+
+#about-me{
+    padding-top: 4rem;
+}
+
+
+
+
+
+
+

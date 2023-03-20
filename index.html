@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body style="background-image: url(./assets/img/bgimg.jpg);">
     <!-- Narbar start -->
-    <nav class="navbar navbar-expand-sm bg-white navbar-light shadow-lg">
-        <div class="container">
-            <h1 class="fw-bold"><a href="index.html" class="navbar-brand"><img src="assets/img/profile.png"
-                        alt="brand profile" width="35px"> KYLE MILLENDEZ</a></h1>
+    <nav class="navbar navbar-expand-sm navbar-light shadow-lg ">
+        <div class="container ">
+            <h1 class="fw-bold"><a href="index.html" class="navbar-brand "><img src="assets/img/profile.png"
+                        alt="brand profile" width="35px"> KYLE MILLENDEZ </a></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -22,38 +23,42 @@
             </button>
 
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav text-uppercase ms-auto text-center">
-                    <li class="nav-items pe-3"><a class="nav-link active" href="index.html">home</a></li>
-                    <li class="nav-items pe-3"><a class="nav-link" href="about.html">about</a></li>
-                    <li class="nav-items pe-3"><a class="nav-link" href="skills.html">skills</a></li>
-                    <li class="nav-items"><a class="nav-link" href="contact.html">contact</a></li>
+                <ul class="navbar-nav  ms-auto text-center">
+                    <li class="nav-items pe-3"><a class="nav-link active " href="index.html">Home</a></li>
+                    <li class="nav-items pe-3"><a class="nav-link " href="about.html">About</a></li>
+                    <li class="nav-items pe-3"><a class="nav-link " href="skills.html">Skills</a></li>
+                    <li class="nav-items"><a class="nav-link " href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- home content  -->
-    <div class="container-fluid d-flex justify-content-center flex-column ">
-        <div class="row">
+    <div class="container d-flex justify-content-center  flex-column  ">
+        <div class="row pt-5"></div>
+        <div class="row d-flex align-items-center text-lg-start text-center ">
+            <div class="col-md-7 order-2 order-md-1 flex-column home-content pb-5 ">
+                <h1 class="fw-bold">Hey! I'm Kyle Virmar Millendez</h1>
+                
+                <p>I am a Full-stack Web Developer <br>
+                Focused on developing web-based systems</p>
+               
+                <!-- resume link button -->
+                <div class="container "><a href="files/MillendezKyleResume.pdf"
+                        target="_blank" class="btn btn-warning  text-uppercase" role="button"
+                        aria-pressed="true">download cv</a></div>
+            </div>
+            <div class="col-md-5 order-md-2 order-1 profile-img"><img src="assets/img/profile.png" class="img-fluid"  alt="profile"></div>
 
 
-            <div class="col-lg-12 d-flex justify-content-center align-content-center " style="padding-top: 100px;"> <img
-                    class="img-fluid" src="assets/img/profile.png" alt="kyle img" width="250px"></div>
         </div>
-        <div class="container d-flex flex-column text-center ">
-            <p class="h1">HEY! I'M KYLE VIRMAR C. MILLENDEZ</p>
-            <p>I AM A FULL STACK WEB DEVELOPER</p>
 
-        </div>
+
+
     </div>
 
-    <div class="container">
-        <img src="" alt="" href="">
-    </div>
 
-    <!-- resume link button -->
-    <div class="container d-flex justify-content-center"><a href="files/MillendezKyleResume.pdf" target="_blank"
-            class="btn btn-warning  text-uppercase" role="button" aria-pressed="true">download cv</a></div>
+
 
 
 
