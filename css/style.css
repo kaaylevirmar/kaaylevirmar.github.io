@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
-
-
-/* index/home page */
-
-.home-content {
+* {
 
     font-family: 'Oswald', sans-serif;
 
 }
+
+/* index/home page */
+
+
 
 .home-content h1 {
 
@@ -57,4 +57,27 @@
 
 #about-me {
     padding-top: 4rem;
+}
+
+.about{
+    font-size: 20px;
+}
+
+
+
+/* skill css */
+
+.progress-section{
+    font-family: 'Oswald', sans-serif;
+    font-size:  30px;
+    
+}
+
+
+.skills{
+    font-size: 20px;
+}
+@media only screen and (min-width:768px){
+    .progress-section{padding: 0px 100px 0px 100px;}
+    
 }
