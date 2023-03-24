@@ -4,7 +4,7 @@
 * {
 
     font-family: 'Oswald', sans-serif;
-
+    font-size: 20px;
 }
 
 /* index/home page */
@@ -60,7 +60,7 @@
 }
 
 .about{
-    font-size: 20px;
+    background-image: url(../assets/img/bg-long-pages.jpg);
 }
 
 
@@ -75,7 +75,7 @@
 
 
 .skills{
-    font-size: 20px;
+    background-image: url(../assets/img/bg-long-pages.jpg);
 }
 @media only screen and (min-width:768px){
     .progress-section{padding: 0px 100px 0px 100px;}
