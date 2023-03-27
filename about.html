@@ -1,178 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <body class="about">
+    <nav class="navbar navbar-expand-sm bg-white navbar-light shadow-lg">
+      <div class="container">
+        <h1 class="fw-bold">
+          <a href="index.html" class="navbar-brand"
+            ><img
+              src="assets/img/profile.png"
+              alt="brand profile"
+              width="35px"
+            />
+            KYLE MILLENDEZ</a
+          >
+        </h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body class="about" >
-
-  <nav class="navbar navbar-expand-sm bg-white navbar-light shadow-lg">
-    <div class="container">
-      <h1 class="fw-bold">
-        <a href="index.html" class="navbar-brand"><img src="assets/img/profile.png" alt="brand profile" width="35px" />
-          KYLE MILLENDEZ</a>
-      </h1>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  ms-auto text-center">
-          <li class="nav-items pe-3">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-items pe-3">
-            <a class="nav-link active" href="about.html">About</a>
-          </li>
-          <li class="nav-items pe-3">
-            <a class="nav-link" href="skills.html">Skills</a>
-          </li>
-          <li class="nav-items">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <div class="container-fluid" id="about-me">
-    <div class="container">
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-7">
-          <h1 class="about-me-title text-warning">About me</h1>
-          <hr>
-          <p class="about-caption lh-lg">
-            Hi there! My name is Kyle Virmar C. Millendez 23 years of age. I
-            am eager to make my mark on the world and achieve great success in
-            life. Throughout my academic career, I have worked hard to develop
-            the skills and knowledge necessary to pursue my goals. Now, <br><br>I am
-            excited to embark on the next chapter of my life and see where my
-            hard work and determination will take me. Whether it's in my
-            career, personal life, or elsewhere, I am committed to pushing
-            myself to be the best version of myself that I can be.
-          </p>
-          <a href="contact.html" class="btn btn-warning ms-4">Contact me</a>
-        </div>
-        <div class="col-md-5">
-          <img src="assets/img/aboutimg.png" alt="aboutimg" width="550px" class=" img-fluid" />
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-items pe-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-items pe-3">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-items pe-3">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
-  </div>
-
-  <div class="container-fluid pt-5 ">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-5 order-md-1 order-2"><img src="assets/img/norsu.jpg" class="rounded-4 img-fluid" alt=""></div>
-        <div class="col-md-7 order-1  ">
-          <h1 class="text-warning">Educational Attainment</h1>
-          <hr>
-          <p class="lh-lg">A product of Negros Oriental State University in 2022 with a Bachelor's Degree in Bachelor of
-            Science in Information Technology. This accomplishment marks the end of an incredible chapter in my life,
-            and I am filled with a sense of accomplishment and excitement for the future. As a student, I have dedicated
-            countless hours to studying and perfecting my skills in web development.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
- 
-
-  <div class="container pt-5 pb-5 ">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            Where Do I live?
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body lh-base">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+    <div class="container-fluid" id="about-me">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-7">
+            <h1 class="about-me-title text-warning">About me</h1>
+            <hr />
+            <p class="about-caption lh-lg">
+              Hi there! My name is Kyle Virmar C. Millendez 23 years of age. I
+              am eager to make my mark on the world and achieve great success in
+              life. Throughout my academic career, I have worked hard to develop
+              the skills and knowledge necessary to pursue my goals. Now,
+              <br /><br />I am excited to embark on the next chapter of my life
+              and see where my hard work and determination will take me. Whether
+              it's in my career, personal life, or elsewhere, I am committed to
+              pushing myself to be the best version of myself that I can be.
+            </p>
+            <a href="contact.html" class="btn btn-warning ms-4">Contact me</a>
           </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body lh-base">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body lh-base">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="col-md-5">
+            <img
+              src="assets/img/aboutimg.png"
+              alt="aboutimg"
+              width="550px"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-  <footer class="bg-white shadow-lg ">
-    <div class="container-fluid d-flex justify-content-center flex-row gap-md-5 gap-3 pt-3">
-
-      <div class="d-flex"><a href="#"><img src="assets/icons/facebook.svg" alt="facebook icon" width="30px" class="opacity-75 "></a>
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5 order-md-1 order-2">
+            <img
+              src="assets/img/norsu.jpg"
+              class="rounded-4 img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-md-7 order-1">
+            <h1 class="text-warning">Educational Attainment</h1>
+            <hr />
+            <p class="lh-lg">
+              A product of Negros Oriental State University in 2022 with a
+              Bachelor's Degree in Bachelor of Science in Information
+              Technology. This accomplishment marks the end of an incredible
+              chapter in my life, and I am filled with a sense of accomplishment
+              and excitement for the future. As a student, I have dedicated
+              countless hours to studying and perfecting my skills in web
+              development.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="d-flex"><a href="#"><img src="assets/icons/instagram.svg" alt="instagram icon" width="30px" class="opacity-75 "></a>
+    </div>
+
+    <div class="container pt-5 pb-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Where are my hobbies?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body lh-base">
+              <strong>My hobbies,</strong> I have a few hobbies that I'm really
+              passionate about. Singing has been a part of my life since I was
+              young, and I still love it just as much today. Whether I'm singing
+              along to my favorite songs in the car or performing on stage, it's
+              always been a great way for me to express myself and connect with
+              others. Basketball is another hobby that I'm really into. I love
+              the fast pace and the thrill of competition. It's a great way to
+              stay active and improve my physical and mental toughness. When I'm
+              not singing or playing basketball, I often enjoy spending time
+              playing video games. Whether I'm exploring vast open worlds,
+              solving puzzles, or competing with other players online, it's a
+              fun and immersive way to unwind and have some fun. Overall, I feel
+              like my hobbies keep me balanced and help me to de-stress and
+              enjoy life. They're a great way to express myself, challenge
+              myself, and connect with others who share similar interests.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              My Goals in life
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body lh-base">
+              <strong>My Goals in life,</strong> I have some big goals that I'm
+              working towards in life. One of my primary goals is to become a
+              professional web-developer. I've always been fascinated by
+              technology and the ways in which it can be used to solve problems
+              and improve people's lives. Building websites and applications is
+              something that I find both challenging and rewarding, and I'm
+              excited to keep learning and growing in this field. Aside from my
+              career goals, I also have a strong desire to be successful in
+              life. To me, this means not only achieving financial stability and
+              professional recognition, but also finding fulfillment in my
+              personal relationships, hobbies, and interests. I want to live a
+              life that is full of purpose and meaning, and that allows me to
+              make a positive impact on the world around me. Finally, one of my
+              biggest dreams is to travel around the world. I believe that there
+              is so much to learn and experience by immersing oneself in other
+              cultures, and I want to see as much of the world as I can. From
+              the bustling streets of Tokyo to the serene beaches of Bali, there
+              are so many incredible places that I can't wait to explore.
+              Overall, my goals in life are a reflection of my desire to learn,
+              grow, and make the most of the time that I have on this planet.
+              I'm excited to see where my journey takes me, and to keep pushing
+              myself towards the life that I want to live.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              What is web-development to me?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body lh-base">
+              <strong>Web development,</strong>  to me, is the art of creating and maintaining
+              websites that can be accessed by people from all over the world.
+              It involves a set of skills and techniques used to design, build,
+              and maintain websites and web applications that can be accessed
+              through the internet. To me, web development is an exciting and
+              challenging field that requires a deep understanding of various
+              programming languages, frameworks, and tools. It is a constantly
+              evolving field that demands constant learning and innovation to
+              stay relevant and up-to-date. At its core, web development is all
+              about creating engaging and interactive experiences for users. It
+              involves designing user-friendly interfaces, implementing dynamic
+              functionality, and ensuring the website is optimized for speed and
+              performance. Web development requires a mix of technical and
+              creative skills. It involves working with HTML, CSS, JavaScript,
+              and other programming languages to create visually appealing and
+              functional websites. It also involves working with databases and
+              server-side programming languages to store and manage data. In my
+              experience, web development is more than just writing code. It
+              involves collaborating with designers, content creators, and
+              stakeholders to ensure that the website meets the needs of the
+              users and the business. It also involves testing and debugging the
+              website to ensure that it works seamlessly across different
+              devices and browsers. To me, web development is a rewarding and
+              fulfilling career. It allows me to use my technical and creative
+              skills to build something that can be accessed and used by
+              millions of people around the world. It also allows me to stay
+              up-to-date with the latest technologies and trends in the
+              industry, keeping me engaged and challenged in my work. In
+              conclusion, web development is a fascinating field that involves a
+              mix of technical and creative skills. It requires constant
+              learning and innovation to stay relevant and up-to-date. It is a
+              rewarding career that allows me to use my skills to create
+              engaging and interactive experiences for users.
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="d-flex"><a href="#"><img src="assets/icons/twitter.svg" alt="twitter icon" width="30px" class="opacity-75 "></a></div>
-      <div class="d-flex"><a href="#"><img src="assets/icons/google.svg" alt="google icon" width="30px" class="opacity-75 "></a></div>
-      <div class="d-flex"><a href="#"><img src="assets/icons/github.svg" alt="github icon" width="30px" class="opacity-75 "></a></div>
-
-
-    </div>
-    <div class=" d-flex justify-content-center pt-4">
-
-      <p class="copyright">© 2023 Copyright: KyleMillendez</p>
-
     </div>
 
-  </footer>
-  
+    <footer class="bg-white shadow-lg">
+      <div
+        class="container-fluid d-flex justify-content-center flex-row gap-md-5 gap-3 pt-3"
+      >
+        <div class="d-flex">
+          <a href="#"
+            ><img
+              src="assets/icons/facebook.svg"
+              alt="facebook icon"
+              width="30px"
+              class="opacity-75"
+          /></a>
+        </div>
+        <div class="d-flex">
+          <a href="#"
+            ><img
+              src="assets/icons/instagram.svg"
+              alt="instagram icon"
+              width="30px"
+              class="opacity-75"
+          /></a>
+        </div>
+        <div class="d-flex">
+          <a href="#"
+            ><img
+              src="assets/icons/twitter.svg"
+              alt="twitter icon"
+              width="30px"
+              class="opacity-75"
+          /></a>
+        </div>
+        <div class="d-flex">
+          <a href="#"
+            ><img
+              src="assets/icons/google.svg"
+              alt="google icon"
+              width="30px"
+              class="opacity-75"
+          /></a>
+        </div>
+        <div class="d-flex">
+          <a href="#"
+            ><img
+              src="assets/icons/github.svg"
+              alt="github icon"
+              width="30px"
+              class="opacity-75"
+          /></a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center pt-4">
+        <p class="copyright">© 2023 Copyright: KyleMillendez</p>
+      </div>
+    </footer>
 
-
-  <script src="js/bootstrap.js"></script>
-</body>
-
+    <script src="js/bootstrap.js"></script>
+  </body>
 </html>
